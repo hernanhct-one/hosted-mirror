@@ -1,0 +1,26 @@
+# Builds
+.gradle/
+build/
+app/build/
+app/.cxx/
+*.apk
+*.aab
+
+# Rutas locales
+local.properties
+.DS_Store
+.idea/
+*.iml
+
+# Llave de firma: secreta, nunca va al repositorio
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# Dependencias de terceros: se bajan con las instrucciones del README
+third_party/
+
+# Material de la tienda: solo la política de privacidad es pública
+store/*
+!store/privacy/

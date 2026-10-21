@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hosted Mirror Play</string>
+    <string name="notification_text">Listo para recibir AirPlay</string>
+
+    <string name="headline">Tu pantalla, en grande.</string>
+    <string name="subtitle">Duplica tu iPhone, iPad o Mac en este televisor.</string>
+
+    <string name="status_starting">Iniciando…</string>
+    <string name="status_ready">Listo para recibir</string>
+    <string name="status_connected">Conectado con %1$s</string>
+    <string name="status_audio">Reproduciendo audio de %1$s</string>
+    <string name="status_error">No se pudo iniciar el receptor (código %1$d)</string>
+
+    <string name="step1_title">Conéctate al mismo Wi-Fi</string>
+    <string name="step1_body">El iPhone y el televisor deben estar en la misma red.</string>
+    <string name="step2_title">Abre Duplicar pantalla</string>
+    <string name="step2_body">Desliza el Centro de control y toca el ícono de dos pantallas.</string>
+    <string name="step3">Elige «%1$s»</string>
+    <string name="step3_body">La imagen aparece al instante.</string>
+
+    <string name="name_label">Nombre del receptor</string>
+    <string name="rename">Cambiar nombre</string>
+    <string name="rename_title">Nombre del receptor</string>
+    <string name="rename_message">Así aparecerá en la lista de AirPlay de tus dispositivos.</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="footer">%1$s  ·  v%2$s  ·  Código abierto, GPL-3.0  ·  github.com/hernanhct-one/hosted-mirror</string>
+    <string name="no_network">Sin red</string>
+    <string name="your_device">tu dispositivo</string>
+    <string name="connecting_with">Conectando con %1$s…</string>
+</resources>

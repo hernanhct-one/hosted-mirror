@@ -1,0 +1,18 @@
+diff --git a/lib/mdnsd/dnssd_mdnsd.c b/lib/mdnsd/dnssd_mdnsd.c
+index 09f27ef..ee51ffb 100644
+--- a/lib/mdnsd/dnssd_mdnsd.c
++++ b/lib/mdnsd/dnssd_mdnsd.c
+@@ -63,6 +63,13 @@ static void dnssd_make_host_name(char *dst, size_t dst_len)
+ {
+     char host[128];
+ 
++#ifdef __ANDROID__
++    /* Android devuelve "localhost" en gethostname(): Hosted Mirror pasa un nombre propio */
++    const char *android_host = getenv("HM_MDNS_HOST");
++    if (android_host && android_host[0]) {
++        snprintf(host, sizeof(host), "%s", android_host);
++    } else
++#endif
+     if (gethostname(host, sizeof(host)) || !host[0]) {
+         snprintf(host, sizeof(host), "UxPlay");
+     }

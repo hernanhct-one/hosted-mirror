@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#060607</color>
+    <color name="text">#F5F5F7</color>
+    <color name="text_secondary">#8E8E93</color>
+    <color name="text_tertiary">#5A5A5F</color>
+    <color name="hairline">#26262A</color>
+    <color name="ready">#30D158</color>
+    <color name="active">#0A84FF</color>
+    <color name="error">#FF453A</color>
+</resources>

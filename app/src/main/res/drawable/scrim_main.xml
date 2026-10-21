@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Oscurece el lado izquierdo y la parte baja de la foto para que el texto se lea bien -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:centerColor="#B3060607"
+                android:centerX="0.42"
+                android:endColor="#33060607"
+                android:startColor="#F2060607" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="90"
+                android:centerColor="#00060607"
+                android:centerY="0.45"
+                android:endColor="#00060607"
+                android:startColor="#F0060607" />
+        </shape>
+    </item>
+</layer-list>
